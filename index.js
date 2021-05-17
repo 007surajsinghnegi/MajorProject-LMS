@@ -32,7 +32,7 @@ app.set('views', path.join(__dirname, 'views'));
 
 // URL OF MONGODB ATLAS
 
-const url='mongodb+srv://user1:<password>@cluster0.dhu3w.mongodb.net/<dbname>?retryWrites=true&w=majority';
+const url='mongodb+srv://dev_chauhan_10:mypassword123@myproject-be1gc.mongodb.net/test?retryWrites=true&w=majority';
 mongoose.Promise = global.Promise;
 
 // CONNECT MONGOOSE TO MONGODB ATLAS
